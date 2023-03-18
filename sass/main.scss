@@ -1,0 +1,95 @@
+@import "./login.scss";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: conic-gradient(at left center, rgb(53, 99, 250), rgb(30, 64, 175));
+    background-size: 100%;
+    padding-top: 4rem;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    box-shadow: inset 10px 50px 100px rgba(0, 0, 0, 0.459), inset -5px -5px 50px rgba(0, 0, 0, 0.432);
+    color: azure;
+}
+
+.navbar{
+    background-color: rgba(255, 255, 255, 0.075);
+    backdrop-filter: blur(10px);
+    padding: .5rem;
+    z-index: 10;
+}
+
+
+
+span{
+        font-size: 1.2rem ;
+        font-weight: bold ;  
+    }
+
+.navbar-search{
+    background-color:#d4d4d4;
+    
+    position: absolute;
+    right: 0;
+    border-radius: 2rem;
+    padding: 0rem  ;
+
+    input{
+        border: 0;
+        background-color: transparent;
+        display: none;
+        font-weight: bold;
+
+        &:focus{
+            outline: none;
+        }
+
+    }
+    button{
+        &:hover{
+           background-color: #024cbc31;
+           border-radius: 2rem;
+           
+        }
+        
+    }
+    }
+
+
+
+// ---pagination---
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    color: #673AB7 !important;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #673AB7 !important;
+}
+
+
+.page-link:hover {
+    z-index: 2;
+    color: #fff !important;
+    background-color: #673ab7;
+    border-color: #024dbc;
+}
+
+
+.page-link:focus {
+    z-index: 3;
+    outline: 0;
+    box-shadow: none;
+}
