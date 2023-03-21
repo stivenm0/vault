@@ -1,0 +1,116 @@
+{
+  "tools": [
+    {
+      "name": "TEMPMAIL",
+      "description": "nos brinda un correo temporal anonimo sin necesidad de un registro",
+      "link": "https://temp-mail.org/es/",
+      "id": 0
+    },
+    {
+      "id": 1,
+      "name": "Tellows",
+      "description": "Identifica llamadas de posibles estafas.",
+      "link": "https://www.tellows.co/"
+    },
+    {
+      "name": "Virus Total",
+      "description": "permite escanera archivos, web o documentos para detectar virus",
+      "link": "https://www.virustotal.com/gui/home/upload",
+      "id": 2
+    },
+    {
+      "name": "Online Video Converter",
+      "description": "permite convertir videos de YouTube en audio y descargarlo.",
+      "link": "https://www.tellows.co/",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "ilovepdf",
+      "description": "",
+      "tags": [],
+      "link": "https://www.ilovepdf.com/"
+    },
+    {
+      "id": 5,
+      "name": "Squoosh",
+      "description": "",
+      "tags": [],
+      "link": "https://squoosh.app/"
+    },
+    {
+      "name": "hola",
+      "description": "hola",
+      "link": "hola",
+      "id": 6
+    },
+    {
+      "name": "fdsa",
+      "description": "dfsa",
+      "link": "fsda",
+      "id": 7
+    },
+    {
+      "name": "hgf",
+      "description": "hgfd",
+      "link": "hgfd",
+      "id": 8
+    },
+    {
+      "name": "Maycol Estiven Muñoz Carmona",
+      "description": "holag",
+      "link": "gfd",
+      "id": 9
+    },
+    {
+      "name": "gfd",
+      "description": "gfd",
+      "link": "gfd",
+      "id": 10
+    },
+    {
+      "name": "hola",
+      "description": "gd",
+      "link": "gfds",
+      "id": 11
+    },
+    {
+      "name": "fds",
+      "description": "fdsa",
+      "link": "fds",
+      "id": 12
+    }
+  ],
+  "users": [
+    {
+      "email": "estivenyeizon@gmail.com",
+      "password": "hola"
+    },
+    {
+      "email": "estivenyei@gmail.com",
+      "password": "hola"
+    }
+  ],
+  "correos": [
+    {
+      "id": 0,
+      "email": "estivenyei@gmail.com"
+    },
+    {
+      "email": "ynfr.pxqdz24@nefyp.com",
+      "id": 1
+    },
+    {
+      "email": "fdgsgf@gmail.com",
+      "id": 2
+    },
+    {
+      "email": "ynfr.pxqdz24@nefyp.com",
+      "id": 3
+    },
+    {
+      "email": "fdsa@hgmail",
+      "id": 4
+    }
+  ]
+}

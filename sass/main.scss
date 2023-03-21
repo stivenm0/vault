@@ -33,21 +33,21 @@ span{
 
 .navbar-search{
     background-color:#d4d4d4;
-    
-    position: absolute;
-    right: 0;
     border-radius: 2rem;
-    padding: 0rem  ;
+    padding: 0rem ;
 
     input{
         border: 0;
         background-color: transparent;
-        display: none;
         font-weight: bold;
+        border-radius: 2rem;
+
 
         &:focus{
+            background-color: transparent;
             outline: none;
         }
+
 
     }
     button{
