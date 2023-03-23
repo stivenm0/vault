@@ -39,46 +39,28 @@
       "link": "https://squoosh.app/"
     },
     {
-      "name": "hola",
-      "description": "hola",
-      "link": "hola",
+      "name": "Draw.io",
+      "description": "Permite crear diagramas de flujo, estructuras alámbricas, diagramas UML, organigramas y diagramas de red.",
+      "link": "https://app.diagrams.net/",
       "id": 6
     },
     {
-      "name": "fdsa",
-      "description": "dfsa",
-      "link": "fsda",
+      "name": "new ",
+      "description": "fdsaf",
+      "link": "fsa",
       "id": 7
     },
     {
-      "name": "hgf",
-      "description": "hgfd",
-      "link": "hgfd",
+      "name": "gd",
+      "description": "gdf",
+      "link": "gdf",
       "id": 8
     },
     {
-      "name": "Maycol Estiven Muñoz Carmona",
-      "description": "holag",
-      "link": "gfd",
-      "id": 9
-    },
-    {
-      "name": "gfd",
-      "description": "gfd",
-      "link": "gfd",
-      "id": 10
-    },
-    {
-      "name": "hola",
+      "name": "fdg",
       "description": "gd",
-      "link": "gfds",
-      "id": 11
-    },
-    {
-      "name": "fds",
-      "description": "fdsa",
-      "link": "fds",
-      "id": 12
+      "link": "gfg",
+      "id": 9
     }
   ],
   "users": [

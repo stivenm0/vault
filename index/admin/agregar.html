@@ -1,26 +1,37 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <script src="../../js/route.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./src/icon.png" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="../../src/icon.png" type="image/x-icon">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="/css/main.css">
     <title>Vault</title>
-    <script src="../../js/route.js"></script>
 </head>
 <body >
     <!-- ======= Back Page ======= -->
-    <a onclick="window.history.back()" class="btn position-fixed" style="top: 12%; z-index: 10;" onc >
+    <a onclick="window.history.back()"  class="btn position-fixed" style="top: 12%; z-index: 10;" onc >
       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-left-square-fill" viewBox="0 0 16 16">
           <path d="M16 14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12zm-4.5-6.5H5.707l2.147-2.146a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L5.707 8.5H11.5a.5.5 0 0 0 0-1z"/>
       </svg>  
     </a>
+    <!-- ======= NavBar ======= -->
+    <nav class="navbar   position-fixed top-0 w-100  " id="navbar" >
+      <div class="container position-relative d-flex justify-content-center">
+        <a class="navbar-brand  px-2 rounded-pill bg-dark" href="/">
+          <span class="text-primary" >V</span>
+          <span class="text-success" >a</span>
+          <span class="text-warning" >u</span>
+          <span class="text-light" >l</span>
+          <span class="text-danger" >t</span>
+        </a>
+     </div>
+   </nav>
 
+    <!-- ======= Form Add======= -->
     <main class="container m-auto ">
         <div class="row d-flex justify-content-center mt-5">
             <div class="col-12 col-md-8 col-lg-6 col-xl-5">
@@ -42,8 +53,7 @@
                             <input type="text" name="link" class="form-control" placeholder="enlace" required>
                           </div>
                          <div class="form-group">
-                            <textarea type="text" name="descripción" class="form-control" placeholder="descripción" required>
-                            </textarea>
+                            <textarea placeholder="descripción"  name="description" class="form-control"   required></textarea>
                           </div>
                           <div class="form-group mt-3 d-flex justify-content-center">
                               <button type="submit"  class="btn btn-block btn-primary btn-lg w-75"><small>accept</small></button>
