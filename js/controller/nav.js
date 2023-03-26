@@ -35,5 +35,3 @@ function exit(){
     sessionStorage.removeItem("user");
     location.reload();
 }
-
-let hola = "hola"

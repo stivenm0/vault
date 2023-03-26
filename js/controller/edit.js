@@ -20,9 +20,6 @@ form.addEventListener("submit", async (event)=>{
     let res = await  allServices.updateWeb(id, name, description, link);
 
     window.location.href = "/index/admin/home.html"
-
-    console.log(res);
-
 });
 
 

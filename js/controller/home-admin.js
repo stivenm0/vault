@@ -7,8 +7,9 @@ const webs =   await allServices.getWebs();
 
 
  function mapOut(items){
+    let html ="";
     items.map((x)=>{
-        row.innerHTML += `
+        html += `
         <div class="col-xl-3 col-lg-4 col-md-5 mb-4 col-sm-6 col-11 position-relative web">
             <div class="bg-white rounded shadow-sm " >
                 <img src="../../src/webs.jpg" alt="" class="img-fluid card-img-top">
@@ -28,6 +29,7 @@ const webs =   await allServices.getWebs();
         </div>
         `;
     });
+    row.innerHTML = html;
  }
 
  function mostrar(){
@@ -50,7 +52,6 @@ deletes.forEach(x => {
 
         let res = await allServices.deleteWeb(id);
         
-        console.log(res)
     })
     
 });

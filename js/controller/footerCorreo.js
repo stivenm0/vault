@@ -8,7 +8,4 @@ form.addEventListener("submit", async(event)=>{
 
     let res  = await allServices.addCorreo(email);
 
-    console.log(res)
-
-
 });

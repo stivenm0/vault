@@ -1,98 +1,96 @@
 {
   "tools": [
     {
+      "id": 0,
       "name": "TEMPMAIL",
-      "description": "nos brinda un correo temporal anonimo sin necesidad de un registro",
-      "link": "https://temp-mail.org/es/",
-      "id": 0
+      "description": "Te brinda un correo temporal para registrarte en paginas o para recibir mensajes. tiene un plan premium, aunque su gratuito no es bastante funcional.",
+      "tags": [
+        "Correo"
+      ],
+      "link": "https://temp-mail.org/es/"
     },
     {
       "id": 1,
       "name": "Tellows",
-      "description": "Identifica llamadas de posibles estafas.",
+      "description": "Te ayuda a identificar llamadas telefónicas que pueden ser una posible estafa o spam. Esto lo logra a través de una comunidad que reporta números. Puedes formar parte de su comunidad.",
+      "tags": [
+        "Llamadas Telefónicas"
+      ],
       "link": "https://www.tellows.co/"
     },
     {
+      "id": 2,
       "name": "Virus Total",
-      "description": "permite escanera archivos, web o documentos para detectar virus",
-      "link": "https://www.virustotal.com/gui/home/upload",
-      "id": 2
+      "description": "Te ayuda a detectar virus en webs, PDFs, apks, archivos de musica, texto… es gratuita.",
+      "tags": [
+        "Antivirus"
+      ],
+      "link": "https://www.virustotal.com/gui/home/upload"
     },
     {
+      "id": 3,
       "name": "Online Video Converter",
-      "description": "permite convertir videos de YouTube en audio y descargarlo.",
-      "link": "https://www.tellows.co/",
-      "id": 3
+      "description": "Esta web permite descargar videos de Youtube ya sea en formato mp3 o mp4. No permite elegir calidad de descarga.",
+      "tags": [
+        "Video",
+        "Musica"
+      ],
+      "link": "https://es.onlinevideoconverter.pro/116/"
     },
     {
       "id": 4,
       "name": "ilovepdf",
-      "description": "",
-      "tags": [],
+      "description": "esta web te permite manipular PDF",
+      "tags": [
+        "PDF"
+      ],
       "link": "https://www.ilovepdf.com/"
     },
     {
       "id": 5,
       "name": "Squoosh",
-      "description": "",
-      "tags": [],
+      "description": "Esta web permite rebajar el peso de la imágenes sin comprometer la calidad de imagen.",
+      "tags": [
+        "Imágenes"
+      ],
       "link": "https://squoosh.app/"
     },
     {
-      "name": "Draw.io",
-      "description": "Permite crear diagramas de flujo, estructuras alámbricas, diagramas UML, organigramas y diagramas de red.",
-      "link": "https://app.diagrams.net/",
+      "name": "example",
+      "description": "hola",
+      "link": "fsdjf",
       "id": 6
     },
     {
-      "name": "new ",
-      "description": "fdsaf",
-      "link": "fsa",
+      "name": "hey",
+      "description": "fd",
+      "link": "fd",
       "id": 7
     },
     {
-      "name": "gd",
-      "description": "gdf",
-      "link": "gdf",
+      "name": "gdf",
+      "description": "gfd",
+      "link": "gfd",
       "id": 8
     },
     {
-      "name": "fdg",
-      "description": "gd",
-      "link": "gfg",
+      "name": "bgb",
+      "description": "bcv",
+      "link": "cbc",
       "id": 9
+    },
+    {
+      "name": "das",
+      "description": "fd",
+      "link": "dds",
+      "id": 10
     }
   ],
   "users": [
     {
       "email": "estivenyeizon@gmail.com",
-      "password": "hola"
-    },
-    {
-      "email": "estivenyei@gmail.com",
-      "password": "hola"
+      "password": "12345678"
     }
   ],
-  "correos": [
-    {
-      "id": 0,
-      "email": "estivenyei@gmail.com"
-    },
-    {
-      "email": "ynfr.pxqdz24@nefyp.com",
-      "id": 1
-    },
-    {
-      "email": "fdgsgf@gmail.com",
-      "id": 2
-    },
-    {
-      "email": "ynfr.pxqdz24@nefyp.com",
-      "id": 3
-    },
-    {
-      "email": "fdsa@hgmail",
-      "id": 4
-    }
-  ]
+  "correos": []
 }

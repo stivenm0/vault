@@ -44,8 +44,6 @@ async function updateWeb(id, name, description, link){
               body: JSON.stringify({name, description, link})
 
         });
-        
-        return res.json();
 
     } catch (error) {
         console.log(error)
@@ -62,7 +60,7 @@ async function addWeb(name, description, link){
 
         });
         
-        return res.json();
+        // return res.json();
 
     } catch (error) {
         console.log(error)
